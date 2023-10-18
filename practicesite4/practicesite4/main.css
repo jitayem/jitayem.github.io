@@ -1,0 +1,82 @@
+/* Please insert all your CSS code into this document */
+body > header:first-child{
+	width: 100%;
+	height: 200px;
+	position: fixed;
+	margin-top: -200px;
+}
+
+#wrapper {
+	margin-top: 200px;
+}
+
+#oneAside {
+	float: left;
+	width: 200px;
+}
+
+.oneArticle {
+	float: right;
+	margin-left: 200px;
+}
+
+footer {
+	margin-bottom: 0px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	clear: left;
+}
+
+img {
+ width: 50%;
+ height: 50%
+}
+
+#twoAside {
+	float: left;
+	width: 200px;
+	overflow: auto;
+}
+
+.twoArticle {
+	float: right;
+	margin-left: 200px;
+}
+
+.threeAside {
+	float: left;
+	width: 25%;
+}
+
+.threeArticle {
+	margin-left:25%;
+}
+
+.threeArticleImg {
+	float: right;
+	width: 25%;
+}
+
+.fourAside {
+	display: inline-block;
+	vertical-align: top;
+	width: 25%;
+}
+
+.fourArticle {
+	display: inline-block;
+	vertical-align: top;
+	width: 74%;
+}
+
+.fiveBox {
+	float: left;
+  	width: 200px;
+  	height: 100px;
+  	margin: 1em;
+}
+
+#fiveFooter {
+	clear: left;
+}
